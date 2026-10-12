@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex10 POST - Formulaire</title>
+</head>
+<body>
+<h1>Partie B - Formulaire POST</h1>
+<form action="ex10_post.php" method="POST">
+    <label>Nom: <input type="text" name="nom"></label><br><br>
+    <label>Prénom: <input type="text" name="prenom"></label><br><br>
+    <label>Groupe:
+        <select name="groupe">
+            <option value="">--Choisir--</option>
+            <option value="G1">G1</option>
+            <option value="G2">G2</option>
+            <option value="G3">G3</option>
+            <option value="G4">G4</option>
+        </select>
+    </label><br><br>
+    <button type="submit">Envoyer en POST</button>
+</form>
+</body>
+</html>
